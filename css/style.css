@@ -184,7 +184,7 @@ html {
 }
 /*-------------aminities--------*/
 
-.amenities-icon {
+.highlight_points {
   text-align: center;
   box-shadow: 1px 1px 25px #e0e0e0;
   /*box-shadow: 0 8px 8px -6px rgba(0, 0, 0, 0.2);*/
@@ -194,14 +194,17 @@ html {
   transition: ease all 0.5s;
 }
 
-.amenities-icon:hover {
+.highlight_points:hover {
   transform: translateY(-10px);
   transition: ease all 0.5s;
 }
+.highlight_points {
+  height: 120px;
+}
 
-.amenities-icon .icons-wrap {
-  height: 90px;
-  width: 90px;
+.highlight_points .icons-wrap {
+  /* height: 90px;
+  width: 90px; */
   margin: 0px auto;
   border: 2px solid transparent;
   border-radius: 50%;
@@ -212,33 +215,33 @@ html {
   transition: ease all 0.5s;
 }
 
-.amenities-icon:hover .icons-wrap {
+.highlight_points:hover .icons-wrap {
   border-radius: 0;
   border-color: #222;
   transition: ease all 0.5s;
 }
 
-.amenities-icon .icons-wrap i {
+.highlight_points .icons-wrap i {
   color: #5f5f5f;
 }
 
-.amenities-icon .icons-wrap i:before {
+.highlight_points .icons-wrap i:before {
   font-size: 60px;
 }
 
-.amenities-icon h3 {
+.highlight_points h3 {
   font-size: 17px;
   transition: ease all 0.5s;
   color: #222;
   min-height: 70px;
 }
 
-.amenities-icon:hover h3 {
+.highlight_points:hover h3 {
   color: #222;
   transition: ease all 0.5s;
 }
 
-.amenities-icon .flex-wrap:before {
+.highlight_points .flex-wrap:before {
   content: "";
   position: absolute;
   height: 50px;
