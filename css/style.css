@@ -254,3 +254,13 @@ html {
   margin-left: -25px;
   top: 50px;
 }
+
+/* Gallery */
+.gal-img {
+  /* width: 19em !important; */
+  height: 200px;
+}
+.gal-img img {
+  width: 100% !important;
+  height: 100%;
+}
