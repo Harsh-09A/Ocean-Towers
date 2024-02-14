@@ -720,3 +720,16 @@ html {
   padding-left: 10px;
   color: var(--colorPrimary);
 }
+
+.cta_btn {
+  background: var(--colorPrimary);
+}
+.cta_btn,
+.cta_btn:hover,
+.cta_btn:focus-visible,
+.cta_btn:active {
+  background-color: var(--colorPrimary) !important;
+  border: none !important;
+  color: var(--colorWhite);
+  width: 100%;
+}
