@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Ocean Towers</title>
 
     <!-- Favicon -->
     <link rel="icon" href="img/logo/favicon.webp" sizes="16x16" />
@@ -32,6 +32,12 @@
       integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer" />
+    <!-- Owl Carousel -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
     <!-- Fancy Box CDN -->
     <script
@@ -266,7 +272,7 @@
         </div>
       </section>
 
-      <!-- Overview -->
+      <!-- CTA -->
       <section class="container-fluid banner_cta">
         <div class="row">
           <div class="col-12 col-md-2 pt-2 text-center">
@@ -315,7 +321,7 @@
 
           <div class="col-12 col-lg-6 pt-4">
             <div class="text-center">
-              <h3 class="sub-heading">CONTACT US</h3>
+              <h3 class="sub-heading">REGISTER YOUR INTEREST</h3>
               <!-- Form -->
               <div class="enquire-section ps-5 pe-5">
                 <div class="container">
@@ -627,6 +633,89 @@
         </div>
       </section>
 
+      <!-- Amenities Section -->
+      <section id="amenities_section" class="container p-4 text-center">
+        <h2 class="section-heading">Amenities</h2>
+
+        <!-- Carousel -->
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <div class="carousel-image my-2">
+              <img
+                class="img-fluid"
+                src="img/amenities/amenities1.jpg"
+                alt="" />
+            </div>
+            <div class="carousel-image my-2">
+              <img
+                class="img-fluid"
+                src="img/amenities/amenities2.jpg"
+                alt="" />
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="carousel-image my-2">
+              <img
+                class="img-fluid"
+                src="img/amenities/amenities3.jpg"
+                alt="" />
+            </div>
+            <div class="carousel-image my-2">
+              <img
+                class="img-fluid"
+                src="img/amenities/amenities4.jpg"
+                alt="" />
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="carousel-image my-2">
+              <img
+                class="img-fluid"
+                src="img/amenities/amenities5.jpg"
+                alt="" />
+            </div>
+            <div class="carousel-image my-2">
+              <img
+                class="img-fluid"
+                src="img/amenities/amenities6.jpg"
+                alt="" />
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="carousel-image my-2">
+              <img
+                class="img-fluid"
+                src="img/amenities/amenities7.jpg"
+                alt="" />
+            </div>
+            <div class="carousel-image my-2">
+              <img
+                class="img-fluid"
+                src="img/amenities/amenities8.jpg"
+                alt="" />
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="carousel-image my-2">
+              <img
+                class="img-fluid"
+                src="img/amenities/amenities9.jpg"
+                alt="" />
+            </div>
+            <div class="carousel-image my-2">
+              <img
+                class="img-fluid"
+                src="img/amenities/amenities10.jpg"
+                alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- Location Section -->
       <section id="location_section" class="container p-4 mt-3 mb-3">
         <div>
@@ -709,6 +798,390 @@
           </div>
         </div>
       </section>
+
+      <!-- About Section -->
+      <section id="about_section" class="container-fluid p-4 mt-3">
+        <div class="about_overlay">
+          <div class="container pt-2">
+            <div class="row">
+              <div class="col-12 col-lg-6 p-5 about-para-container">
+                <div class="text-center">
+                  <h2 class="section-heading text-white">About Us</h2>
+
+                  <div class="text-white about-para">
+                    <p>
+                      The Prestige Group is one of India's most trusted and
+                      respected names in Real Estate - The Prestige Group is
+                      synonymous with innovation and luxurious living. Since
+                      1986, Prestige has helped build the face of Modern Urban
+                      India in its glorious globalized avatar by consistently
+                      introducing and creating state-of-the-art transformative
+                      real estate concepts, technologies and innovations.
+                    </p>
+                    <span id="dots8" style="display: inline"></span>
+                    <span id="more8" style="display: none">
+                      <p>
+                        The Prestige Group has completed 285 projects spanning a
+                        developable area of 170 million sqft and has 54 ongoing
+                        projects across segments, with a total developable area
+                        of 75 million sqft. The company has been graded CRISIL
+                        DA1+ by CRISIL and enjoys a credit rating of ICRA A+.
+                      </p></span
+                    >
+                  </div>
+                  <button
+                    onclick="toggleContent('dots8','more8', 'myBtn8')"
+                    class="read_more"
+                    id="myBtn8">
+                    Read More
+                  </button>
+                  <br />
+                </div>
+              </div>
+
+              <div class="col-12 col-lg-6 p-5">
+                <div class="text-center">
+                  <h3 class="section-heading text-white">CONTACT US</h3>
+                  <!-- Form -->
+                  <div class="enquire-section ps-5 pe-5">
+                    <div class="container">
+                      <form id="contact-form" class="text-center">
+                        <div class="mb-3">
+                          <label for="user_name" class="form-label">Name</label>
+                          <input
+                            type="text"
+                            class="form-control inputStyle shadow-none"
+                            name="user_name"
+                            id="user_name"
+                            placeholder="Name"
+                            autocomplete="off"
+                            required />
+                        </div>
+                        <div class="mb-3">
+                          <label for="user_email" class="form-label"
+                            >Email address</label
+                          >
+                          <input
+                            type="email"
+                            class="form-control inputStyle shadow-none"
+                            name="user_email"
+                            id="user_email"
+                            placeholder="Email Address"
+                            autocomplete="off" />
+                        </div>
+                        <div class="mb-3">
+                          <label for="contact_number" class="form-label"
+                            >Phone Number</label
+                          >
+                          <input
+                            type="tel"
+                            class="form-control inputStyle shadow-none"
+                            id="contact_number"
+                            name="contact_number"
+                            pattern="[0-9]{10}"
+                            placeholder="Phone Number"
+                            oninvalid="setCustomValidity('Please enter a valid phone number. e.g., 12345-67890')"
+                            oninput="setCustomValidity('')"
+                            required />
+                        </div>
+
+                        <div
+                          class="d-flex ps-1 pb-2"
+                          style="font-size: 9px; color: #bfbfbf">
+                          <input
+                            type="checkbox"
+                            checked=""
+                            required=""
+                            class="custom-control-input custom-control-input-green"
+                            id="privacy_check"
+                            data-gtm-form-interact-field-id="0" />
+
+                          <label
+                            class="ps-2 pb-2 custom-control-label"
+                            for="privacy_check">
+                            I consent to the use of my provided data in
+                            accordance with the
+                            <a
+                              href="privacy_policy.html"
+                              target="_blank"
+                              style="font: inherit; color: inherit"
+                              >privacy policy</a
+                            >.</label
+                          >
+                        </div>
+
+                        <button
+                          type="submit"
+                          class="btn btn-primary submit-btn w-100">
+                          Submit
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="container text-center text-white">
+        <!-- <div class="d-flex justify-content-center">
+          <div class="qrcode">
+            <img src="img/qr/qr.jpg" class="" />
+          </div>
+        </div> -->
+        <div>
+          <p>
+            MahaRERA Registration No.:- Coming Soon
+            <br />
+            Agent RERA :- Coming Soon
+          </p>
+
+          <p>
+            <a
+              href="https://maharera.mahaonline.gov.in"
+              style="color: #fff; text-decoration: none">
+              maharera.mahaonline.gov.in
+            </a>
+          </p>
+
+          <div class="text-center">
+            <p class="contact_details">
+              <b> Site Address:-</b> ---
+              <br />
+              <b> Contact No:-</b> +999999999999
+              <br />
+              <b> Email Address:-</b> support@prestige.com
+            </p>
+          </div>
+
+          <div>
+            <span>
+              Disclaimer : The information provided on this website is intended
+              exclusively for informational purposes and managed by a RERA
+              authorized real estate agent namely Mr. -----------. This Website
+              Is Not An Official Site And It Belongs To The Authorized Marketing
+              Partner For Information Purpose Only And Does Not Constitute An
+              Offer To Avail Any Service.
+            </span>
+            <span id="dots20" style="display: inline"></span>
+            <span id="more20" style="display: none">
+              <span>
+                The pricing information presented on this website is subject to
+                alteration without advance notification, and the assurance of
+                property availability cannot be guaranteed. The images showcased
+                on this website are for representational purposes only and may
+                not accurately reflect the actual properties. Please Note That
+                This Is The Official Website Of An Authorized Marketing Partner.
+                We May Share Data With Real Estate Regulatory Authority (RERA)
+                Registered Brokers/Companies For Further Processing As Required.
+                We May Also Send Updates And Information To The Mobile Number Or
+                Email ID Registered With Us. All rights reserved. The content,
+                design, and information on this website are protected by
+                copyright and other intellectual property rights. Any
+                unauthorized use or reproduction of the content may violate
+                applicable laws. For accurate and up-to-date information
+                regarding services, pricing, availability, and any other
+                details, it is recommended to contact us directly through the
+                provided contact information on this website. Thank you for
+                visiting our website.
+              </span>
+            </span>
+            <br />
+            <span
+              class="read_more2"
+              onclick="toggleContent('dots20','more20', 'myBtn20')"
+              id="myBtn20">
+              Read More
+            </span>
+          </div>
+
+          <p class="pb-4 pt-2">
+            <a
+              href="privacy_policy.html"
+              target="_blank"
+              style="text-decoration: none">
+              Privacy Policy
+            </a>
+            |
+            <a
+              href="termsandcondition.html"
+              target="_blank"
+              style="text-decoration: none">
+              Terms And Conditions
+            </a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Mobile Footer Fixed Button -->
+    <div class="container-fluid fixed-bottom action-footer-container">
+      <ul class="nav nav-fill action-footer">
+        <li class="nav-item ps-1">
+          <a
+            onclick="return gtag_report_conversion('https://wa.me/+919322650519');"
+            href="https://wa.me/+919322650519"
+            class="text-decoration-none text-white">
+            <i class="fa-brands fa-whatsapp nav-icon"> </i> Whatsapp
+          </a>
+        </li>
+        <li class="nav-item ps-1">
+          <a
+            onclick="return gtag_report_conversion('tel:+919322650519');"
+            href="tel:+919322650519"
+            class="text-decoration-none text-white">
+            <i class="fa-solid fa-phone me-2"></i> Call Us
+          </a>
+        </li>
+
+        <li
+          class="nav-item"
+          data-bs-toggle="modal"
+          data-bs-target="#popupModal">
+          <i class="fa-solid fa-download nav-icon"></i> Brochure
+        </li>
+      </ul>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="popupModal"
+      tabindex="-1"
+      aria-labelledby="ModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Title -->
+          <div class="modal-header">
+            <!-- <h1 class="modal-title fs-5" id="ModalLabel">Modal title</h1> -->
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+
+          <!-- Modal Body -->
+          <div class="modal-body">
+            <div class="container text-center">
+              <img src="img/logo/logo.png" alt="" height="50px" />
+              <p class="mt-2">Register Here And Avail The Best Offers!!</p>
+            </div>
+            <div class="container">
+              <!--Enquire Form  -->
+              <div class="enquire-section">
+                <span class="d-block text-center fw-bold my-2">
+                  Get The Best Quote
+                </span>
+                <div class="container">
+                  <!-- Form -->
+                  <form id="contact-form-modal" class="text-center">
+                    <div class="mb-3">
+                      <label for="user_name_modal" class="form-label"
+                        >Name</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control inputStyle shadow-none"
+                        name="user_name"
+                        id="user_name_modal"
+                        placeholder="Name"
+                        autocomplete="off"
+                        required />
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="user_email_modal" class="form-label"
+                        >Email address</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control inputStyle shadow-none"
+                        name="user_email"
+                        id="user_email_modal"
+                        placeholder="Email Address"
+                        autocomplete="off" />
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="contact_number_modal" class="form-label"
+                        >Phone Number</label
+                      >
+                      <input
+                        type="tel"
+                        class="form-control inputStyle shadow-none"
+                        name="contact_number"
+                        id="contact_number_modal"
+                        pattern="[0-9]{10}"
+                        placeholder="Phone Number"
+                        oninvalid="setCustomValidity('Please enter a valid phone number. e.g., 12345-67890')"
+                        oninput="setCustomValidity('')"
+                        required />
+                    </div>
+
+                    <div
+                      class="d-flex ps-1 pb-2"
+                      style="font-size: 9px; color: #bfbfbf">
+                      <input
+                        type="checkbox"
+                        checked=""
+                        required=""
+                        class="custom-control-input custom-control-input-green"
+                        id="privacy_check_modal"
+                        data-gtm-form-interact-field-id="0" />
+
+                      <label
+                        class="ps-2 pb-2 custom-control-label"
+                        for="privacy_check_modal">
+                        I consent to the use of my provided data in accordance
+                        with the
+                        <a
+                          href="privacy_policy.html"
+                          target="_blank"
+                          style="font: inherit; color: inherit"
+                          >privacy policy</a
+                        >.</label
+                      >
+                    </div>
+
+                    <button type="submit" class="btn btn-primary submit-btn">
+                      Submit
+                    </button>
+                    <p class="m-2 form_norms">
+                      <span>
+                        Your contact details are safe with us. <br />
+                      </span>
+                      <span> Our team will be in touch with you soon.</span>
+                    </p>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal Footer -->
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Floating Button -->
+    <div class="floating_btn">
+      <a
+        target="_blank"
+        href="https://wa.me/+999999999999"
+        onclick="return gtag_report_conversion('https://wa.me/+999999999999');">
+        <div class="contact_icon">
+          <i class="fa-brands fa-whatsapp my-float"></i>
+        </div>
+      </a>
+      <p class="text_icon">Talk to us?</p>
+    </div>
   </body>
 </html>
