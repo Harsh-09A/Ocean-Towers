@@ -51,7 +51,7 @@
     <script
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script src="js/mail.js"></script>
+    <script defer src="js/mail.js"></script>
 
     <!-- AOS CDN -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
@@ -169,11 +169,6 @@
               data-bs-target="#carousel-Indicators"
               data-bs-slide-to="1"
               aria-label="Slide 2"></button>
-            <button
-              type="button"
-              data-bs-target="#carousel-Indicators"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"></button>
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -184,15 +179,9 @@
             </div>
             <div class="carousel-item">
               <img
-                src="img/banner/desktop_banner1.webp"
+                src="img/banner/desktop_banner2.webp"
                 class="d-block w-100 img-fluid"
                 alt="Banner2" />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="img/banner/desktop_banner1.webp"
-                class="d-block w-100 img-fluid"
-                alt="Banner3" />
             </div>
           </div>
           <button
@@ -231,30 +220,19 @@
               data-bs-target="#carousel-Indicators-Mobile"
               data-bs-slide-to="1"
               aria-label="Slide 2"></button>
-            <button
-              type="button"
-              data-bs-target="#carousel-Indicators-Mobile"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"></button>
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
-                src="img/banner/desktop_banner1.webp"
+                src="img/banner/mobile_banner1.jpg"
                 class="d-block w-100 img-fluid"
                 alt="Banner1" />
             </div>
             <div class="carousel-item">
               <img
-                src="img/banner/desktop_banner1.webp"
+                src="img/banner/mobile_banner2.jpg"
                 class="d-block w-100 img-fluid"
                 alt="Banner2" />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="img/banner/desktop_banner1.webp"
-                class="d-block w-100 img-fluid"
-                alt="Banner3" />
             </div>
           </div>
           <button
@@ -280,7 +258,11 @@
       <section class="container-fluid banner_cta">
         <div class="row">
           <div class="col-12 col-md-2 pt-2 text-center">
-            <button type="button" class="btn effectScale cta_btn">
+            <button
+              type="button"
+              class="btn effectScale cta_btn"
+              data-bs-toggle="modal"
+              data-bs-target="#popupModal">
               Register Now
             </button>
           </div>
@@ -293,7 +275,11 @@
           </div>
 
           <div class="col-12 col-md-2 pt-2 text-center">
-            <button type="button" class="btn effectScale cta_btn">
+            <button
+              type="button"
+              class="btn effectScale cta_btn"
+              data-bs-toggle="modal"
+              data-bs-target="#popupModal">
               Fix An Appointment
             </button>
           </div>
@@ -423,54 +409,62 @@
           </h3>
         </div>
 
-        <div
-          class="row mr0"
-          data-aos="fade-up"
-          data-aos-delay="400"
-          data-aos-duration="1000">
-          <div class="col-md-3 col-xs-6">
-            <div class="highlight_points">
-              <h3 style="line-height: 30px">
-                TWO MAGNIFICIENT EDIFICES ON A 2.3 ACRE LAND PARCEL
-              </h3>
+        <div data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+          <div class="row justify-content-center">
+            <div class="col-md-3 col-xs-6">
+              <div class="highlight_points">
+                <h3 style="line-height: 30px">
+                  TWO MAGNIFICIENT EDIFICES ON A 2.3 ACRE LAND PARCEL
+                </h3>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-xs-6">
+              <div class="highlight_points">
+                <h3 style="line-height: 30px">
+                  UNSTINTED VIEWS OF THE QUEEN'S NECKLANCE AND ARABIAN SEA
+                </h3>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-xs-6">
+              <div class="highlight_points">
+                <h3 style="line-height: 30px">
+                  AN ARCHTECTURAL MARVEL BY FOSTER - PARTNERS
+                </h3>
+              </div>
             </div>
           </div>
-          <div class="col-md-3 col-xs-6">
-            <div class="highlight_points">
-              <h3 style="line-height: 30px">
-                UNSTINTED VIEWS OF THE QUEEN'S NECKLANCE AND ARABIAN SEA
-              </h3>
+          <div class="row justify-content-center">
+            <div class="col-md-3 col-xs-6">
+              <div class="highlight_points">
+                <h3 style="line-height: 30px">
+                  4 BHK VILLAMENTS WITH MAJESTIC DECKS
+                </h3>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-xs-6">
+              <div class="highlight_points">
+                <h3 style="line-height: 30px">
+                  A MULTI-LEVEL LIFESTYLE PODIUM WITH INFINITY POOL &amp;
+                  CURATED INDULGENCES
+                </h3>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-xs-6">
+              <div class="highlight_points">
+                <h3 style="line-height: 30px">
+                  HOMES DESIGNED BY ARCHITECT HAFEEZ CONTRACTOR
+                </h3>
+              </div>
             </div>
           </div>
-          <div class="col-md-3 col-xs-6">
-            <div class="highlight_points">
-              <h3 style="line-height: 30px">
-                AN ARCHTECTURAL MARVEL BY FOSTER - PARTNERS
-              </h3>
-            </div>
-          </div>
-          <div class="col-md-3 col-xs-6">
-            <div class="highlight_points">
-              <h3 style="line-height: 30px">
-                4 BHK VILLAMENTS WITH MAJESTIC DECKS
-              </h3>
-            </div>
-          </div>
-          <div class="col-md-3 col-xs-6">
-            <div class="highlight_points">
-              <h3 style="line-height: 30px">
-                A MULTI-LEVEL LIFESTYLE PODIUM WITH INFINITY POOL &amp; CURATED
-                INDULGENCES
-              </h3>
-            </div>
-          </div>
-          <div class="col-md-3 col-xs-6">
-            <div class="highlight_points">
-              <h3 style="line-height: 30px">
-                HOMES DESIGNED BY ARCHITECT HAFEEZ CONTRACTOR
-              </h3>
-            </div>
-          </div>
+        </div>
+
+        <div class="row mr0 row-cols-3">
+          <!--  -->
         </div>
       </section>
 

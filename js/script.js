@@ -35,11 +35,11 @@ function toggleContent(dotsId, moreTextId, btnId) {
 }
 
 // Popup Modal
-// $(window).ready(function () {
-//   setTimeout(function () {
-//     $("#popupModal").modal("show");
-//   }, 3000);
-// });
+$(window).ready(function () {
+  setTimeout(function () {
+    $("#popupModal").modal("show");
+  }, 3000);
+});
 
 // AOS
 AOS.init();
