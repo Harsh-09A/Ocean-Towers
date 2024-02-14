@@ -40,3 +40,6 @@ function toggleContent(dotsId, moreTextId, btnId) {
 //     $("#popupModal").modal("show");
 //   }, 3000);
 // });
+
+// AOS
+AOS.init();
